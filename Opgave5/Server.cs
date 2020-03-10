@@ -13,23 +13,11 @@ namespace Opgave5
     {
         private static List<Bog> _bogliste = new List<Bog>()
         {
-            new Bog() {Titel = "Programmering", Forfatter = "Claus Hedegaard", Isbn13 = "123456789123", Sidetal = 84},
-            new Bog()
-            {
-                Titel = "Programmering 1.3", Forfatter = "Claus Hedegaard", Isbn13 = "123456789124", Sidetal = 100
-            },
-            new Bog()
-            {
-                Titel = "Programmering 1.1", Forfatter = "Claus Hedegaard", Isbn13 = "123456789125", Sidetal = 400
-            },
-            new Bog()
-            {
-                Titel = "Programmering 1.2", Forfatter = "Claus Hedegaard", Isbn13 = "123456789126", Sidetal = 900
-            },
-            new Bog()
-            {
-                Titel = "Programmering 1.3", Forfatter = "Claus Hedegaard", Isbn13 = "123456789127", Sidetal = 700
-            }
+            new Bog(){Forfatter = "Akira Himekawa", Isbn13 = "DetteErEnISBN", Sidetal = 200, Titel = "The Legend of Zelda"},
+            new Bog(){Forfatter = "Akira Himekawa", Isbn13 = "DetteErISBNEN", Sidetal = 250, Titel = "The Legend of Zelda: Ocarina of Time"},
+            new Bog(){Forfatter = "Akira Himekawa", Isbn13 = "DetteErISBN11", Sidetal = 400, Titel = "The Legend of Zelda: Breath of the Wild"},
+            new Bog(){Forfatter = "Akira Himekawa", Isbn13 = "DetteErISBN12", Sidetal = 700, Titel = "The Legend of Zelda: Twilight princess"},
+            new Bog(){Forfatter = "Akira Himekawa", Isbn13 = "DetteErISBN13", Sidetal = 900, Titel = "The Legend of Zelda: The Master Trials"}
         };
 
         public Server()
